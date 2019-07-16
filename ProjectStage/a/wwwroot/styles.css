@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  main, header {
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+    background-color: #eee;
+  }
+  
+  main {
+    min-width: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  section {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  button {
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+  }
+  
+  table {
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  

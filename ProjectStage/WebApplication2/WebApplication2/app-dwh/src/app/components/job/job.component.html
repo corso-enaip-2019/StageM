@@ -1,0 +1,40 @@
+
+<body>
+    <div class="border"></div>
+    <div class="border2">I</div>
+<h1>Module:</h1>
+
+<button (click)='startJob()' [(ngModel)]="content">{{content}}</button>
+<button (click) = "getJobInfo()">view Info Job</button>
+<button [disabled]="isButtonDisabled" (click) = "getJobStatus()">view status</button>
+<table>
+    <tr>
+        <td>Status:</td>
+        <td>{{job.jobStatus}}</td>
+    </tr>
+    <tr>
+        <td>Description:</td>
+        <td>{{job.jobDescription}}</td>
+    </tr>
+    <tr>
+        <td>Name:</td>
+        <td>{{job.jobName}}</td>
+    </tr>
+    <tr>
+        <td>Steps Count:</td>
+        <td>{{job.stepsCount}}</td>
+    </tr>
+    <tr>
+        <td>Current Steps:</td>
+        <td>{{job.currentStep}}</td>
+    </tr>
+    <tr>
+        <td>Step Name:</td>
+        <td>{{job.jobStepName}}</td>
+    </tr>
+</table>
+
+
+<div style="padding:0 0 20px 0"><h2>State Job :</h2><progress max={{job.stepsCount}} value={{job.currentStep}}></progress></div>
+<div class="border"></div>
+</body>

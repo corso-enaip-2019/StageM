@@ -1,0 +1,15 @@
+.profile {
+    background: red;
+    color: #fff;
+    padding: 20px;
+}
+
+.name {
+    display: none;
+}
+
+.name.visible {
+    display: block;
+    background: green;
+    padding: 50px;
+}

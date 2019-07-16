@@ -1,0 +1,18 @@
+<input type="text" [(ngModel)]="newElement" />
+
+<button [disabled]="isButtonDisabled" (click)="addItem()">
+    Add element
+</button>
+
+<div>
+    {{newElement}}
+</div>
+
+<li *ngFor="let element of list">
+    <span *ngIf="element == 'item 1'">
+        Primo elemento
+    </span>
+    <span *ngIf="element != 'item 1'">
+        {{element}}
+    </span>
+</li>

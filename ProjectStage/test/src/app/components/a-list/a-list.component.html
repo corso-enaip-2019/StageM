@@ -1,0 +1,13 @@
+
+<li *ngFor="let x of list">
+  <span>
+    {{x.description}} 
+    <button (click)="deleteItem(x.id)" > delete </button>
+    <button (click)="updateItem(x.id)" > update </button>
+    <input type="text" [(ngModel)] ="x.updateDes" />
+    
+  </span>
+</li>
+
+<input type="text" [(ngModel)] ="newElement" />
+<button (click)= "addItem()">Add</button>

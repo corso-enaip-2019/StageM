@@ -1,0 +1,28 @@
+<table *ngIf="isTableVisible">
+  <tr *ngFor="let element of list">
+    <td>{{element.id}}</td>
+    <td>{{element.name}}</td>
+    <td>{{element.username}}</td>
+    <td>{{element.email}}</td>
+    <button (click)="viewDetail(element.id)">show</button>
+  </tr>
+</table>
+<div *ngIf="!isTableVisible">
+    <h1>{{selectedItem.name}}</h1>
+    <h1>{{selectedItem.username}}</h1>
+    <h1>{{selectedItem.email}}</h1>
+    <h1>address:</h1>
+    <h1>{{selectedItem.address.street}}</h1>
+    <h1>{{selectedItem.address.suite}}</h1>
+    <h1>{{selectedItem.address.city}}</h1>
+    <h1>{{selectedItem.phone.zipcode}}</h1>
+    <h1>{{selectedItem.address.street}}</h1>
+    <h1>geo:</h1>
+    <h1>{{selectedItem.address.geo.lat}}</h1>
+    <h1>{{selectedItem.address.geo.lng}}</h1>
+    <h1>{{selectedItem.website}}</h1>
+    <h1>company:</h1>
+    <h1>{{selectedItem.company.name}}</h1>
+    <h1>{{selectedItem.company.catchPhrase}}</h1>
+    <h1>{{selectedItem.company.bs}}</h1>
+</div>

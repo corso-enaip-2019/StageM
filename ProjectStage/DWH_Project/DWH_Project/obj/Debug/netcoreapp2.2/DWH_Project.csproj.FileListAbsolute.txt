@@ -1,0 +1,3 @@
+C:\Users\stage\source\repos\DWH_Project\DWH_Project\obj\Debug\netcoreapp2.2\DWH_Project.csproj.CoreCompileInputs.cache
+C:\Users\stage\source\repos\DWH_Project\DWH_Project\obj\Debug\netcoreapp2.2\DWH_Project.AssemblyInfoInputs.cache
+C:\Users\stage\source\repos\DWH_Project\DWH_Project\obj\Debug\netcoreapp2.2\DWH_Project.AssemblyInfo.cs

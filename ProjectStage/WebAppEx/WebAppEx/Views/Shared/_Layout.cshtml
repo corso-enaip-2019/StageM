@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <base href="/" />
+</head>
+<body>
+    @RenderBody()
+
+    <script src="~/AppEx/dist/AppEx/runtime-es2015.js" type="module"></script>
+    <script src="~/AppEx/dist/AppEx/polyfills-es2015.js" type="module"></script>
+    <script src="~/AppEx/dist/AppEx/runtime-es5.js" nomodule></script>
+    <script src="~/AppEx/dist/AppEx/polyfills-es5.js" nomodule></script>
+    <script src="~/AppEx/dist/AppEx/styles-es2015.js" type="module"></script>
+    <script src="~/AppEx/dist/AppEx/styles-es5.js" nomodule></script>
+    <script src="~/AppEx/dist/AppEx/vendor-es2015.js" type="module"></script>
+    <script src="~/AppEx/dist/AppEx/main-es2015.js" type="module"></script>
+    <script src="~/AppEx/dist/AppEx/vendor-es5.js" nomodule></script>
+    <script src="~/AppEx/dist/AppEx/main-es5.js" nomodule></script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

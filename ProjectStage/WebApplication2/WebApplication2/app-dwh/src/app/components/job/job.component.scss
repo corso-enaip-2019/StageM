@@ -1,0 +1,117 @@
+body{
+    background-color:#000000d9;
+    // linen
+}
+
+h1{
+    margin: 10px 110px 25px;
+    border-style: ridge;
+    text-align: left;
+    border-radius: 10px;
+    padding-left: 210px;
+    font-family: "Arial Narrow Bold";
+    color: rgba(255, 255, 255, 0.945);
+    border-color:rgb(255, 255, 255);
+    // maroon
+    font-size: -webkit-xxx-large;
+    background-color:rgba(0, 140, 255, 0.7);
+    // ffd70057
+}
+
+button {
+    margin: 10px 50px;
+    background-color: #7981db24;
+    // cornsilk
+    border-radius: 10px;
+    border: ridge;
+    border-color: rgb(255, 255, 255);
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0.945);
+    // brown
+    margin-left: 13.5%;
+    width: 200px;
+}
+
+button:hover{
+    background-color:  rgba(255, 255, 255, 0.815);
+    // rgba(255, 217, 0, 0.63)
+    transition-duration: 0.5s;
+    color: #000000bd;
+}
+
+button:disabled{
+    opacity: 0.5;
+}
+
+button:focus{
+    outline: 0;
+}
+
+
+table {
+   width: 80%;
+   margin: 30px 10% 40px;
+   background-color:rgba(255, 255, 255, 0.897);
+}
+tr:hover{
+    background-color:rgba(139, 139, 139, 0.87);
+    color: rgba(255, 255, 255, 0.884);
+}
+
+td {
+    padding: 10px;
+    border-style: groove;
+    font-size: 20px;
+    padding: 10px 70px;
+    border-color: rgb(255, 255, 255);
+    // coral
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+    color:  rgba(255, 255, 255, 0.945);
+    // maroon
+    border-style: double;
+    border-radius: 12px;
+    width: 300px;
+    margin: 20px 40%;
+    background-color: rgba(255, 255, 255, 0.14);
+    border-color:rgb(255, 255, 255);
+}
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 400px;
+    height:22px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+
+progress::-webkit-progress-value {
+    background-image:
+         -webkit-linear-gradient(-45deg, 
+                                 transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                                 rgba(0,0, 0, .1) 66%, transparent 66%),
+         -webkit-linear-gradient(top, 
+                                 rgba(255, 255, 255, .25), 
+                                 rgba(0, 0, 0, .25)),
+         -webkit-linear-gradient(left, rgb(174, 235, 255), rgba(68, 87, 255, 0.596));
+  
+      border-radius: 12px; 
+      background-size: 35px 20px, 100% 100%, 100% 100%;
+  }
+
+div{
+    text-align: center;
+}
+
+.border{
+    color:#7981db24;
+    margin-top: 35px;
+}
